@@ -1,0 +1,4 @@
+build/
+.vscode/
+ku-rv32i-as
+sample_input/*.o
