@@ -255,3 +255,18 @@ int32_t lo12 = D - (hi20 << 12);    // lower 12 bits, fits in [-2048, 2047]
 
 If `lo12 == 0`, the `addi` instruction may be omitted and only `auipc` is
 emitted.
+
+---
+
+## 10. Misc
+
+We will accept your late submissions, but your score will lose up to 50%. 
+Please do not give up the project.
+
+**Be aware of plagiarism!** Although it is encouraged to discuss with others 
+and refer to extra materials, **copying other students or opening code publicly is strictly banned.**
+The TAs will compare your source code with other team’s code. 
+If you are caught, you will receive a penalty for plagiarism.
+
+Last semester, we found a couple of plagiarism cases through an automated tool. Please do not try to cheat TAs. 
+If you have any requests or questions regarding administrative issues (such as late submission due to an unfortunate accident, gradescope is not working), please send an e-mail to the TAs.
